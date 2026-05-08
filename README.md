@@ -64,11 +64,11 @@ Both dashboards were built with interactive filter actions, allowing users to cl
 
 ![Dashboard 1](Images/dashboard_1_rider_behavior.png)
 
-When you separate the 1.6 million rides by rider type, two completely different usage profiles emerge. Annual members and casual riders are not using the same program in the same way — they are effectively two different user groups with different needs, different schedules, and different motivations.
+When you separate the 1.6 million rides by rider type, two completely different usage profiles emerge. Annual members and casual riders are not using the same program in the same way. They are effectively two different user groups with different needs, different schedules, and different motivations.
 
 ### Key Findings
 
-- Members show two sharp daily peaks — a morning surge around 8am and an evening surge around 5-6pm, a textbook commuter pattern
+- Members show two sharp daily peaks, a morning surge around 8am and an evening surge around 5-6pm, a textbook commuter pattern
 - Casual riders show a single broad afternoon peak between 3-5pm with no morning spike, consistent with leisure and tourist activity
 - Casual riders take trips averaging 22 minutes, nearly twice the 11-minute average for members, suggesting exploratory rather than point-to-point travel
 - Weekend ridership shows a higher proportion of casual riders relative to weekdays, further confirming the leisure use pattern
@@ -105,7 +105,7 @@ The dominance of electric bikes suggests the program should prioritize e-bike av
 
 ![Station Map](Images/station_map.png)
 
-The interactive map plots the top 50 busiest Citi Bike start stations across New York City. Color intensity represents total ride volume, with darker dots indicating higher ridership. The map makes the geographic concentration of demand immediately visible — activity is densest in Midtown Manhattan and the west side of Manhattan from Chelsea through the Upper West Side, with a secondary cluster emerging in Brooklyn. Outer borough stations show significantly lower demand during this period, which may reflect seasonal patterns given the January through March timeframe.
+The interactive map plots the top 50 busiest Citi Bike start stations across New York City. Color intensity represents total ride volume, with darker dots indicating higher ridership. The map makes the geographic concentration of demand immediately visible. Activity is densest in Midtown Manhattan and the west side of Manhattan from Chelsea through the Upper West Side, with a secondary cluster emerging in Brooklyn. Outer borough stations show significantly lower demand during this period, which may reflect seasonal patterns given the January through March timeframe.
 
 ---
 
