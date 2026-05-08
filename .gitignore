@@ -1,0 +1,17 @@
+# Tableau
+*.twb
+*.twbx
+*.tde
+*.hyper
+
+# Data files (too large for GitHub)
+*.csv
+*.zip
+*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
