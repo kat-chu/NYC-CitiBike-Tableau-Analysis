@@ -1,25 +1,26 @@
-# 🚲 NYC Citi Bike Ridership Analysis | Jan - Mar 2024
+# NYC Citi Bike Ridership Analysis | Jan - Mar 2024
 
 ![Tableau](https://img.shields.io/badge/Tool-Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Python](https://img.shields.io/badge/Language-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
 ![Data](https://img.shields.io/badge/Records-1.6M+-blue?style=flat)
 
 ---
 
-## 📊 View the Full Interactive Dashboard
+## View the Full Interactive Dashboard
 
-👉 **[Click here to explore the Tableau Public Dashboard](https://public.tableau.com/views/NYC_CitiBike_Analysis_2024/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+**[Click here to explore the Tableau Public Dashboard](https://public.tableau.com/views/NYC_CitiBike_Analysis_2024/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
----
-
-## 📌 Overview
-
-This project analyzes over **1.6 million Citi Bike rides** from January through March 2024 to uncover two key phenomena about how New Yorkers use the bike-sharing program. The analysis is designed to help city officials and urban planners make data-driven decisions about the Citi Bike program.
+Direct URL: https://public.tableau.com/views/NYC_CitiBike_Analysis_2024/Story1
 
 ---
 
-## 📂 Project Structure
+## Overview
+
+This project analyzes over 1.6 million Citi Bike rides from January through March 2024 to uncover two key phenomena about how New Yorkers use the bike-sharing program. The analysis is designed to help city officials and urban planners make data-driven decisions about the Citi Bike program.
+
+---
+
+## Project Structure
 
 ```
 NYC-CitiBike-Tableau-Analysis/
@@ -34,9 +35,10 @@ NYC-CitiBike-Tableau-Analysis/
 
 ---
 
-## 📋 Dataset
+## Dataset
 
 - **Source:** [Citi Bike System Data](https://www.citibikenyc.com/system-data)
+- **Direct URL:** https://www.citibikenyc.com/system-data
 - **Period:** January, February, and March 2024
 - **Files:** 8 CSV files unioned in Tableau
 - **Total Records:** 1,663,295 rides
@@ -44,48 +46,50 @@ NYC-CitiBike-Tableau-Analysis/
 
 ---
 
-## 🔍 Phenomenon 1: Members vs Casual Riders Behave Very Differently
+## Phenomenon 1: Members vs Casual Riders Behave Very Differently
 
 ![Dashboard 1](Images/dashboard_1_rider_behavior.png)
 
-### Key Findings:
+### Key Findings
 
-- **Members** show clear commuter patterns with two distinct peaks — morning rush around **8am** and evening rush around **5-6pm**
-- **Casual riders** show a single gradual peak in the **afternoon around 3-5pm**, consistent with leisure and tourist use
-- **Casual riders take trips nearly twice as long** — averaging **22 minutes** compared to **11 minutes** for members
-- **Weekend casual ridership** is proportionally higher, further supporting the leisure use pattern
-- **Friday is the busiest day** overall, while Thursday sees the lowest weekday ridership
+- Members show clear commuter patterns with two distinct peaks — morning rush around 8am and evening rush around 5-6pm
+- Casual riders show a single gradual peak in the afternoon around 3-5pm, consistent with leisure and tourist use
+- Casual riders take trips nearly twice as long — averaging 22 minutes compared to 11 minutes for members
+- Weekend casual ridership is proportionally higher, further supporting the leisure use pattern
+- Friday is the busiest day overall, while Thursday sees the lowest weekday ridership
 
-### Insight:
+### Insight
+
 Members are primarily using Citi Bike as a commuting tool for short, efficient trips. Casual riders are exploring the city at a leisurely pace. This distinction has important implications for pricing strategy, station placement, and bike availability planning.
 
 ---
 
-## 🔍 Phenomenon 2: Station & Bike Type Popularity
+## Phenomenon 2: Station & Bike Type Popularity
 
 ![Dashboard 2](Images/dashboard_2_station_usage.png)
 
-### Key Findings:
+### Key Findings
 
-- **Electric bikes account for 65%** of all rides (1,087,449) vs classic bikes at 35% (575,846)
-- **W 21 St & 6 Ave** is the busiest start station, located in the heart of Chelsea
-- The **top 10 busiest stations** are concentrated in Midtown and Chelsea, reflecting high commuter and tourist demand
+- Electric bikes account for 65% of all rides (1,087,449) vs classic bikes at 35% (575,846)
+- W 21 St & 6 Ave is the busiest start station, located in the heart of Chelsea
+- The top 10 busiest stations are concentrated in Midtown and Chelsea, reflecting high commuter and tourist demand
 - Electric bike preference is consistent across both member and casual rider groups
 
-### Insight:
+### Insight
+
 The strong preference for electric bikes suggests growing demand for e-bike infrastructure. The concentration of popular stations in Midtown and Chelsea indicates these areas may benefit from increased bike availability and more frequent rebalancing.
 
 ---
 
-## 🗺️ City Official Map: Station Popularity
+## City Official Map: Station Popularity
 
 ![Station Map](Images/station_map.png)
 
-The interactive map plots the **top 50 busiest start stations** across New York City, with color intensity representing ride volume. Darker dots indicate higher ridership. The map reveals a clear concentration of activity in **Midtown Manhattan** and along the **west side of Manhattan**, with secondary clusters in **Brooklyn**.
+The interactive map plots the top 50 busiest start stations across New York City, with color intensity representing ride volume. Darker dots indicate higher ridership. The map reveals a clear concentration of activity in Midtown Manhattan and along the west side of Manhattan, with secondary clusters in Brooklyn.
 
 ---
 
-## 📈 Summary of Key Metrics
+## Summary of Key Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -103,7 +107,7 @@ The interactive map plots the **top 50 busiest start stations** across New York 
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 | Tool | Purpose |
 |------|---------|
@@ -112,15 +116,6 @@ The interactive map plots the **top 50 busiest start stations** across New York 
 
 ---
 
-## 🎓 Context
+## Context
 
-This project was completed as part of the **Data Analytics and Visualization Bootcamp** at the University of Minnesota. It demonstrates applied data visualization, dashboard design, and data storytelling for a non-technical audience.
-
----
-
-## 👩‍💻 Author
-
-**Kat Chu**
-- 🔗 [LinkedIn](https://www.linkedin.com/in/kat-chu/)
-- 🐙 [GitHub](https://github.com/kat-chu)
-- 📊 [Tableau Public](https://public.tableau.com/app/profile/kat.chu)
+This project was completed as part of the Data Analytics and Visualization Bootcamp at the University of Minnesota. It demonstrates applied data visualization, dashboard design, and data storytelling for a non-technical audience.
